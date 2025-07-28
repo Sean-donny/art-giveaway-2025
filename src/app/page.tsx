@@ -1,103 +1,111 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import Carousel3D from '@/components/3dcarousel';
 
-export default function Home() {
+const page = () => {
+  const extractedData = `
+  Number of Posters: 17
+Number of Participants: 60
+Number of entries: 68
+Participants per poster: {
+  Raver: 8,
+  Frank: 2,
+  Goldenboy: 3,
+  Igormaniac: 1,
+  'Hoodie Gurl': 1,
+  Cench: 1,
+  DOOM: 5,
+  'Boat Boy': 4,
+  Rrrocky: 9,
+  Ashley: 3,
+  Spideryachty: 11,
+  'Subaru Boy': 3,
+  Tyler: 3,
+  Tyla: 1,
+  Teenx: 2,
+  'Fashion Roadman': 6,
+  AZAMAN: 5
+}
+Largest entry count: { poster: 'Spideryachty', count: 11 }
+Posters with smallest entries: { posters: [ 'Igormaniac', 'Hoodie Gurl', 'Cench', 'Tyla' ], count: 1 }
+Top 3 most popular posters: [
+  { poster: 'Spideryachty', count: 11 },
+  { poster: 'Rrrocky', count: 9 },
+  { poster: 'Raver', count: 8 }
+]
+    `;
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div className="bg-donblue">
+      <nav className="h-auto w-full flex-center py-3 fixed top-0">
+        {/* Header, add icon and anchor to the top of site, intended to be a single
+        page presentation */}
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src="/sean_donny_2_skulls_logo.svg"
+          width={150}
+          height={150}
+          alt="Sean Donny Logo"
+          priority={true}
+          loading="eager"
+          className="invert"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      </nav>
+      <div className="w-full h-screen bg-donblue text-4xl flex-center overflow-clip">
+        <Image
+          src="/sd_art_giveaway_hero_image.png"
+          alt="Sean Donny Art Giveaway graphic with Sean Donny written in magazine cut out letters, and Sean squatting over his artwork laid out in a circular fashion around him"
+          width={2027 / 4}
+          height={1896 / 4}
+          className="subtle-pulse"
+        />
+      </div>
+      <div className="w-full h-screen">
+        <div className="w-full h-[400px] flex-center overflow-clip">
+          <Carousel3D />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <p className="font-funnel font-semibold text-4xl text-slate-200">
+          17 posters up for grabs
+        </p>
+      </div>
+      <div>141 comments across Instagram & Tiktok</div>
+      <div>66 Birthday wishes, thank you</div>
+      <div>68 entries from 60 participants</div>
+      <div>Here are the results..</div>
+      <div>Top 3 audience faves</div>
+      <div>These ones were with unique admirers</div>
+      <div>The highest in the room, this one was an audience favourite</div>
+      <div>Graph of Contestant participation</div>
+      <div>Raver winners</div>
+      <div>Frank winners</div>
+      <div>Goldenboy winners</div>
+      <div>Igormaniac winners</div>
+      <div>Hoodie Gurl winners</div>
+      <div>Cench winners</div>
+      <div>DOOM winners</div>
+      <div>Boat Boy winners</div>
+      <div>Rrrocky winners</div>
+      <div>Ashley winners</div>
+      <div>Spideryachty winners</div>
+      <div>Subaru Boy winners</div>
+      <div>Tyler winners</div>
+      <div>Tyla winners</div>
+      <div>Teenx winners</div>
+      <div>Fashion Roadman winners</div>
+      <div>AZAMAN winners</div>
+      <div>Thank you to everyone who participated</div>
+      <div>Reach out so I can ship your order to you!</div>
+      <div>Development Process</div>
+      <div>
+        Scraping Comments, had to use Chrome extension as python approach kept
+        proving difficult
+      </div>
+      <div>
+        Parsed txt and csv data, transformed data using LLM (Claude), extracted
+        key info from data
+      </div>
+      <div>Built site with Next.js, styled with Tailwind</div>
     </div>
   );
-}
+};
+
+export default page;
