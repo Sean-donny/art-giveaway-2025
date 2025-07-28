@@ -59,13 +59,19 @@ Top 3 most popular posters: [
         />
       </div>
       <div className="w-full h-screen">
-        <div className="w-full h-[400px] flex-center overflow-clip">
+        <h3
+          className="font-funnel font-semibold text-6xl lg:text-8xl text-slate-200 text-center"
+          style={{
+            zIndex: 3000,
+            transform: 'translateZ(1000px)', // Push text forward in 3D space
+            position: 'relative', // Make sure it respects z-index
+          }}
+        >
+          <span>17</span> posters up for grabs
+        </h3>
+        <div className="w-full h-[400px] flex-center overflow-x-clip">
           <Carousel3D />
         </div>
-
-        <p className="font-funnel font-semibold text-4xl text-slate-200">
-          17 posters up for grabs
-        </p>
       </div>
       <div>141 comments across Instagram & Tiktok</div>
       <div>66 Birthday wishes, thank you</div>

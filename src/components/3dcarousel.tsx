@@ -78,20 +78,20 @@ const Carousel3D = () => {
     },
     {
       src: '/16x20_fashion_roadman.jpg',
-      width: 320,
-      height: 400,
+      width: 500 * 1.2,
+      height: 400 * 1.2,
       alt: 'giveaway poster',
     },
     {
       src: '/20x10_azaman.jpg',
-      width: 800,
-      height: 400,
+      width: 800 * 1.2,
+      height: 400 * 1.2,
       alt: 'giveaway poster',
     },
   ];
   const totalImages = posters.length;
   const anglePerImage = 360 / totalImages;
-  const radius = 1000;
+  const radius = 700;
 
   return (
     <div className="scene">
