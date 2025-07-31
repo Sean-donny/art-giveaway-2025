@@ -1,0 +1,85 @@
+Post - 61 comments
+Reel - 47 comments
+Tiktok - 33 comments
+
+Need to parse the comments and sort them into buckets
+
+posters part of the giveaway:
+
+{Posters:["Raver", "Frank", "Goldenboy", "Igormaniac", "Hoodie Gurl", "Cench", "DOOM", "Boat Boy", "Rrrocky", "Ashley", "Spideryachty", "Subaru Boy", "Tyler", "Tyla", "Teenx", "Fashion Roadman", "AZAMAN"]}
+
+I have parsed all comments from all respective social media
+
+Now to combine all comments, then filter for Giveaway entries
+
+So off the bat I notice the data does not have strict poster title usage, so the users are referring to a specific poster, but based on the subject, and some other messages have a birthday wishes.
+
+Most optimal approach is to union all data into one json object, then use a LLM to process the data, as there is no programattic way to easily process with the above considerations.
+
+deradondada
+byvictorchimdi
+manex_draws
+creatorpikin
+ccrybaby66
+nosatiere
+uche
+Smokherself
+deradondada
+Eufrasia
+kenennaezenwa
+Shae
+Ollie
+emmainhd
+_myraa.xx
+yeh0shua__
+ayotos1n
+zomvilien
+wigingod
+qazxs____
+jay_en23
+deradondada
+e.s.i.r.i
+pattydrewit
+Ezekiel
+deradondada
+j3ccy_
+sh2madeit
+lloydsxo
+d0lly_p
+cozyut3_tm
+olivinco_
+dinma.aliu
+Dshawn
+_tea.me
+reggaeratt
+khalkeu.s
+heart_art_ella
+fai.sama_
+aizebeokai_
+kennyakinlolu
+3leje
+marrni_
+wigingod
+alvin_jpg
+made0v0pium
+Ollie
+Musa Daniel Tunde
+subaruboy44
+jitesart
+Shaye
+emete.etim
+Ollie
+Banjoko Daniel
+hellozizii
+tob1lxba
+kenennaezenwa
+_ayomiiide_
+debbyfasingha
+uzomadueke
+obi.fortune
+darapmakwe
+dtlyyyy
+deradondada
+tehpajphotoalbum
+notdlm
+_.tomiwaaaa

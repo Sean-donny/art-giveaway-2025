@@ -445,7 +445,7 @@ export const comments: comment[] = [
   },
   {
     user: 'Albert',
-    comment: 'Happy Birthday broo!!!!',
+    comment: 'Happy birthday broo!!!! 🥳🥳❤️and these are cleannn',
   },
   {
     user: 'natzpaintedit',
@@ -453,11 +453,11 @@ export const comments: comment[] = [
   },
   {
     user: 'Shae',
-    comment: 'NEEEEEED LEN',
+    comment: 'NEEEEED LEN',
   },
   {
     user: 'Asiwah',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday big bro',
   },
   {
     user: 'Topsy',
@@ -465,110 +465,112 @@ export const comments: comment[] = [
   },
   {
     user: 'The.Sigma.Gemini',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday ✨',
   },
   {
     user: 'Exalt',
-    comment: 'Happy Birthday!',
+    comment:
+      "Happy birthday @Sean Donny 🔥🔥😭, sadly I won't be able to get them 😭",
   },
   {
     user: 'sleekdagreat',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday',
   },
   {
     user: 'Blakk Superman',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday bro',
   },
   {
     user: 'Ke mama supreme',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday 🥳🥳',
   },
   {
     user: 'uche',
-    comment: 'Rema',
+    comment: 'These are so cool. I need the Rema one',
   },
   {
     user: 'Shar',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday Donny !!!',
   },
   {
     user: 'Yxnfee',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday slime',
   },
   {
     user: 'WVGD',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday Skii🎉❤️',
   },
   {
     user: 'Ollie',
-    comment: 'Spideryachty, Len, Tyler The Creator',
+    comment:
+      'I want the Lil yatchy spider verse, or the Len one, or the Tyler the creator one!!',
   },
   {
     user: 'efeemeye',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday my mancheee🥰🥰',
   },
   {
     user: 'Tule',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday donny ❤️',
   },
   {
     user: 'Dshawn',
-    comment: 'ASAP Rocky',
+    comment: 'the big asap rocky one🙂‍↕️',
   },
   {
     user: 'Nezer',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday Sean',
   },
   {
     user: 'Shaye',
-    comment: 'Subaru Boy',
+    comment: 'The big Subaru boy',
   },
   {
     user: 'Smokherself',
-    comment: 'Rema',
+    comment: 'HEIS',
   },
   {
-    user: 'Rue',
-    comment: 'Happy Birthday!',
+    user: 'Sylvia',
+    comment: 'Jesus those are luscious prints, happy birthday bestie 🖤🖤🖤',
   },
   {
     user: 'Ryan',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday my bro 🤝🏾',
   },
   {
     user: 'Banjoko Daniel',
-    comment: 'Tyler The Creator',
+    comment: 'The big Tyler poster',
   },
   {
     user: 'Musa Daniel Tunde',
-    comment: 'Spideryachty',
+    comment: 'Spidery yatchy 🙏😭',
   },
   {
     user: 'Youthfulbyryan',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday twin',
   },
   {
     user: 'Ezekiel',
-    comment: 'Boat Boy',
+    comment: 'Happy birthday bro yatchy ones so tuff 🙏🏾🙏🏾',
   },
   {
     user: 'Ufedo',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday yayyy',
   },
   {
     user: 'Alfredmeetsworld',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday Seannnn🫀🫀🫀',
   },
   {
     user: 'Eufrasia',
-    comment: 'Frank A4',
+    comment: 'FRANK A4',
   },
   {
     user: 'Collectivity101',
-    comment: 'Happy Birthday!',
+    comment: 'Your birthday is one day afrer mine vro',
   },
   {
     user: 'Dav£',
-    comment: 'Happy Birthday!',
+    comment: 'Happy birthday 🎊',
   },
 ];
