@@ -45,6 +45,6 @@ This is a [Next.js](https://nextjs.org) project built to showcase the results of
 
 ```bash
 git clone https://github.com/Sean-donny/art-giveaway-2025.git
-cd your-repo
+cd art-giveaway-2025
 npm install
 npm run dev
