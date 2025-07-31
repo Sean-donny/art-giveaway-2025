@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖼️ Art Giveaway Results – Next.js App
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) project built to showcase the results of an **Art Giveaway** held across Instagram and TikTok.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- ⚡ **Next.js with Turbopack** for ultra-fast builds
+- 🎨 **TailwindCSS v4** for modern, utility-first styling
+- 🛡️ **TypeScript** for type safety and fewer runtime errors
+- 🎞️ **Framer Motion** for smooth, subtle animations
+
+---
+
+## 📋 Project Scope
+
+1. **Data Collection**  
+   Comments were scraped from Instagram and TikTok giveaway posts.
+
+2. **Data Processing**  
+   The raw data was cleaned, organized, and analyzed to generate insights.
+
+3. **Contestant Mapping**  
+   Participants were sorted and linked to their preferred posters.
+
+4. **Winner Selection**  
+   Winners were randomly selected from the list of valid contestants.
+
+5. **Results Presentation**  
+   A visually appealing UI was built to showcase the giveaway results.
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org) (with **Turbopack**)
+- [TailwindCSS v4](https://tailwindcss.com)
+- [TypeScript](https://www.typescriptlang.org)
+- [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/Sean-donny/art-giveaway-2025.git
+cd your-repo
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
