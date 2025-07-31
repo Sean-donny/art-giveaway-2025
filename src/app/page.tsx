@@ -206,7 +206,7 @@ const page = () => {
           </p>
         </RevealWrapper>
       </div>
-      <div className="bg-black py-20">
+      <div className="bg-black py-20" id="results">
         <RevealWrapper animation="fadeInUp">
           <PosterResultsTable />
         </RevealWrapper>

@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const viewport: Viewport = {
-  themeColor: '#0200f3',
+  themeColor: '#000000',
 };
 
 const commonMetadataFields = {
